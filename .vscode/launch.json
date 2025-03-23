@@ -1,0 +1,30 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "app-stage",
+            "request": "launch",
+            "type": "dart",
+            "toolArgs": ["--dart-define", "ENV=stage" ]
+        },
+        {
+            "name": "app-prod",
+            "request": "launch",
+            "type": "dart",
+            "toolArgs": ["--dart-define", "ENV=prod" ]
+        },
+        {
+            "name": "app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "app (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
