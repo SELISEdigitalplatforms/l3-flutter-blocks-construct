@@ -36,26 +36,26 @@ android {
         versionName = flutter.versionName
     }
 
-    signingConfigs {
-        release {
-            keyAlias keystoreProperties['keyAlias']
-            keyPassword keystoreProperties['keyPassword']
-            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
-            storePassword keystoreProperties['storePassword']
-        }
-    }
+    // signingConfigs {
+    //     release {
+    //         keyAlias keystoreProperties['keyAlias']
+    //         keyPassword keystoreProperties['keyPassword']
+    //         storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+    //         storePassword keystoreProperties['storePassword']
+    //     }
+    // }
 
     buildTypes {
         debug {
-            signingConfig signingConfigs.release
+            // signingConfig signingConfigs.release
         }
         profile {
-            signingConfig signingConfigs.release
+            // signingConfig signingConfigs.release
         }
         release {
             shrinkResources false
             minifyEnabled false
-            signingConfig signingConfigs.release
+            // signingConfig signingConfigs.release
             applicationVariants.all { variant ->
                 def date = new Date()
                 def formattedDate = date.format('yyyy-MM-dd')
