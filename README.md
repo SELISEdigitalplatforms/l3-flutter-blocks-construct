@@ -12,7 +12,8 @@ SELISE `<blocks/>` Construct is a fully functional application blueprint designe
 ### Frontend
 
 - **SELISE `<blocks />` CLI (NPM)** → [@seliseblocks/cli](https://www.npmjs.com/package/@seliseblocks/cli)
-- **GitHub Repository** → [l3-react-blocks-construct](https://github.com/SELISEdigitalplatforms/l3-react-blocks-construct)
+- **GitHub Repository (WEB)** → [l3-react-blocks-construct](https://github.com/SELISEdigitalplatforms/l3-react-blocks-construct)
+- **GitHub Repository (MOBILE)** → [l3-flutter-blocks-construct](https://github.com/SELISEdigitalplatforms/l3-flutter-blocks-construct)
 
 ### Backend
 
